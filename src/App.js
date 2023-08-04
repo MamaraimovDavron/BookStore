@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import BookAds from "./components/BookAds";
 import Header from "./components/Header";
 
 class App extends Component {
@@ -6,6 +7,7 @@ class App extends Component {
         return(
             <div className="container">
                 <Header />
+                <BookAds />
             </div>
         )
     }
