@@ -14,15 +14,24 @@ class TopSeller extends Component{
                     <option value="Horror">Horror</option>
                 </select>
 
+            
                 <TopSellerProps 
-                    imgUrl="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1661032875i/11127.jpg" 
-                    name="Narnia"
-                    author="C.S.Lewis, Pauline Baynes"
-                    newPrice={27.89}
-                    oldPrice={30.99}
-                />
-                <TopSellerProps />
-                <TopSellerProps />
+                        imgUrl="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1661032875i/11127.jpg" 
+                        name="Narnia"
+                        author="C.S.Lewis, Pauline Baynes"
+                        newPrice={27.89}
+                        oldPrice={30.99}
+                    />
+
+<TopSellerProps 
+                        imgUrl="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1661032875i/11127.jpg" 
+                        name="Narnia"
+                        author="C.S.Lewis, Pauline Baynes"
+                        newPrice={27.89}
+                        oldPrice={30.99}
+                    />
+            
+                
             </div>
         )
     }

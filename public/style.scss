@@ -253,23 +253,24 @@ body{
 // TopSeller styles
 
 .topSeller{
-    // border: 1px solid;
     padding: 40px 100px;
     margin-top: 40px;
+    .box{
+        display: flex;
+        border: 1px solid green;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .topSellerProps{
-    .box{
-        border: 1px solid red;
-        width: 100%;
-        padding: 40px 10px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
-
-        .book-box{
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .book-box{
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -278,7 +279,7 @@ body{
             justify-content: space-evenly;
             width: 30%;
             transition: 0.2s linear all;
-            // border: 1px solid;
+            border: 1px solid red;
             &:hover{
                 box-shadow: 0px 1px 3px black;
             }
@@ -351,4 +352,3 @@ body{
             }
         }
     }
-}

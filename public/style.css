@@ -227,18 +227,22 @@ body {
   padding: 40px 100px;
   margin-top: 40px;
 }
+.topSeller .box {
+  display: flex;
+  border: 1px solid green;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
-.topSellerProps .box {
-  border: 1px solid red;
-  width: 100%;
-  padding: 40px 10px;
+.topSellerProps {
+  border: 1px solid;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
 }
-.topSellerProps .box .book-box {
+.topSellerProps .book-box {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -247,19 +251,20 @@ body {
   justify-content: space-evenly;
   width: 30%;
   transition: 0.2s linear all;
+  border: 1px solid red;
 }
-.topSellerProps .box .book-box:hover {
+.topSellerProps .book-box:hover {
   box-shadow: 0px 1px 3px black;
 }
-.topSellerProps .box .book-box .left {
+.topSellerProps .book-box .left {
   border-radius: 5px;
   width: 40%;
 }
-.topSellerProps .box .book-box .left img {
+.topSellerProps .book-box .left img {
   width: 100%;
   border-radius: 5px;
 }
-.topSellerProps .box .book-box .right {
+.topSellerProps .book-box .right {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -267,26 +272,26 @@ body {
   width: 50%;
   font-family: "Montserrat", sans-serif;
 }
-.topSellerProps .box .book-box .right .name {
+.topSellerProps .book-box .right .name {
   font-size: 14px;
 }
-.topSellerProps .box .book-box .right .author {
+.topSellerProps .book-box .right .author {
   font-size: 12px;
 }
-.topSellerProps .box .book-box .right .prices {
+.topSellerProps .book-box .right .prices {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 20px;
 }
-.topSellerProps .box .book-box .right .prices .newPrice {
+.topSellerProps .book-box .right .prices .newPrice {
   font-size: 13px;
 }
-.topSellerProps .box .book-box .right .prices .oldPrice {
+.topSellerProps .book-box .right .prices .oldPrice {
   font-size: 13px;
   color: grey;
 }
-.topSellerProps .box .book-box .right .btnCart {
+.topSellerProps .book-box .right .btnCart {
   border: none;
   border-radius: 4px;
   padding: 4px 8px;
@@ -300,11 +305,11 @@ body {
   font-size: 12px;
   transition: 0.2s linear all;
 }
-.topSellerProps .box .book-box .right .btnCart:hover {
+.topSellerProps .book-box .right .btnCart:hover {
   border: 1px solid #FFCE1A;
   color: #FFCE1A;
   background-color: #FFF;
 }
-.topSellerProps .box .book-box .right .btnCart .cart {
+.topSellerProps .book-box .right .btnCart .cart {
   font-size: 15px;
 }/*# sourceMappingURL=style.css.map */
