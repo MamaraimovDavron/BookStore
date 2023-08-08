@@ -6,7 +6,7 @@ class TopSellerProps extends Component{
     render(){
         const { imgUrl, name, author, newPrice, oldPrice} = this.props;
         return(
-            <div className="topSellerProps">
+            <div>
                 <div className="book-box">
                         <div className="left">
                             <img src={imgUrl} alt="" />
@@ -24,7 +24,6 @@ class TopSellerProps extends Component{
                             </button>
                         </div>
                 </div>
-                
             </div>
         )
     }

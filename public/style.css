@@ -226,45 +226,45 @@ body {
 .topSeller {
   padding: 40px 100px;
   margin-top: 40px;
-}
-.topSeller .box {
   display: flex;
-  border: 1px solid green;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
 }
 
-.topSellerProps {
-  border: 1px solid;
+.topSellerBox {
   display: flex;
   flex-direction: row;
+  width: 100%;
   align-items: center;
-  justify-content: center;
-}
-.topSellerProps .book-box {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 5px;
-  border-radius: 5px;
   justify-content: space-evenly;
-  width: 30%;
-  transition: 0.2s linear all;
-  border: 1px solid red;
+  padding: 10px 0px;
 }
-.topSellerProps .book-box:hover {
+
+.book-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: center;
+  width: 19vw;
+  gap: 10px;
+  transition: 0.2s linear all;
+}
+.book-box:hover {
   box-shadow: 0px 1px 3px black;
 }
-.topSellerProps .book-box .left {
+.book-box .left {
   border-radius: 5px;
   width: 40%;
+  height: 90%;
 }
-.topSellerProps .book-box .left img {
+.book-box .left img {
   width: 100%;
   border-radius: 5px;
 }
-.topSellerProps .book-box .right {
+.book-box .right {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -272,26 +272,26 @@ body {
   width: 50%;
   font-family: "Montserrat", sans-serif;
 }
-.topSellerProps .book-box .right .name {
+.book-box .right .name {
   font-size: 14px;
 }
-.topSellerProps .book-box .right .author {
+.book-box .right .author {
   font-size: 12px;
 }
-.topSellerProps .book-box .right .prices {
+.book-box .right .prices {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 20px;
 }
-.topSellerProps .book-box .right .prices .newPrice {
+.book-box .right .prices .newPrice {
   font-size: 13px;
 }
-.topSellerProps .book-box .right .prices .oldPrice {
+.book-box .right .prices .oldPrice {
   font-size: 13px;
   color: grey;
 }
-.topSellerProps .book-box .right .btnCart {
+.book-box .right .btnCart {
   border: none;
   border-radius: 4px;
   padding: 4px 8px;
@@ -305,11 +305,11 @@ body {
   font-size: 12px;
   transition: 0.2s linear all;
 }
-.topSellerProps .book-box .right .btnCart:hover {
+.book-box .right .btnCart:hover {
   border: 1px solid #FFCE1A;
   color: #FFCE1A;
   background-color: #FFF;
 }
-.topSellerProps .book-box .right .btnCart .cart {
+.book-box .right .btnCart .cart {
   font-size: 15px;
 }/*# sourceMappingURL=style.css.map */
