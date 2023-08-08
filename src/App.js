@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import BookAds from "./components/BookAds";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import TopSeller from "./components/TopSeller";
 
@@ -10,6 +11,7 @@ class App extends Component {
                 <Header />
                 <BookAds />
                 <TopSeller />
+                <Footer />
             </div>
         )
     }

@@ -13,6 +13,7 @@ body {
   background-color: white;
   margin: auto;
   padding: 0;
+  box-shadow: 0px 0px 20px grey;
 }
 
 .header {
@@ -225,11 +226,14 @@ body {
 
 .topSeller {
   padding: 40px 100px;
-  margin-top: 40px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+}
+.topSeller select {
+  margin-top: 20px;
 }
 
 .topSellerBox {
@@ -239,6 +243,8 @@ body {
   align-items: center;
   justify-content: space-evenly;
   padding: 10px 0px;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .book-box {
@@ -312,4 +318,36 @@ body {
 }
 .book-box .right .btnCart .cart {
   font-size: 15px;
+}
+
+.footer {
+  box-shadow: 0px 0px 2px grey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 100px;
+  padding: 10px;
+}
+.footer .time {
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+.footer .icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 5vw;
+}
+.footer .icons a {
+  text-decoration: none;
+  color: #FFCE1A;
+  transition: 0.4s linear all;
+}
+.footer .icons a:hover {
+  color: red;
 }/*# sourceMappingURL=style.css.map */

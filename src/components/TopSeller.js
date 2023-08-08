@@ -43,18 +43,18 @@ class TopSeller extends Component{
                 <h1>Recommended Books</h1>
                 <div className="topSellerBox">
                     <TopSellerProps 
-                            imgUrl="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1661032875i/11127.jpg" 
-                            name="Narnia"
-                            author="C.S.Lewis, Pauline Baynes"
-                            newPrice={27.89}
-                            oldPrice={30.99}
+                            imgUrl="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1490528560i/4671.jpg" 
+                            name="The Great Gatsby"
+                            author="F. Scott Fitzgerald"
+                            newPrice={37.89}
+                            oldPrice={40.99}
                         />
                         <TopSellerProps 
-                            imgUrl="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1660273739i/11870085.jpg" 
-                            name="The Fault in Our Stars"
-                            author="John Green"
-                            newPrice={17.89}
-                            oldPrice={20.99}
+                            imgUrl="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1367545443i/157993.jpg" 
+                            name="The Little Prince"
+                            author="Antoine de Saint-Exupéry"
+                            newPrice={21.85}
+                            oldPrice={22.39}
                         />
 
                     <TopSellerProps 
